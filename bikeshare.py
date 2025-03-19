@@ -102,7 +102,7 @@ def time_stats(df):
     # TO DO: display the most common month
     # The dataframe already has its own month column
     frequent_month = df['month'].mode()[0]
-    print('The bikeshare is most commonly used in month:', frequent_month)
+    print('The bikeshare system is most commonly used in:', frequent_month)
 
     # TO DO: display the most common day of week
     # The dataframe also has its own day column already
