@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# First step is assigning each csv file to a city value. New York != New York City
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
