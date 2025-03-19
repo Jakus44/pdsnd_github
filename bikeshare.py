@@ -170,7 +170,7 @@ def user_stats(df):
 
     # Check if the DataFrame is empty
     if df.empty:
-        print("No data available for the selected filters.")
+        print("The DataFrame you have created is empty!")
         return
 
     # Display counts of user types
@@ -183,7 +183,7 @@ def user_stats(df):
             gender_counts = df['Gender'].value_counts()
             print('Here is the breakdown of the users by gender:\n', gender_counts)
         else:
-            print('The dataset does not contain gender data.')
+            print('The Washington dataset does not contain gender data.')
     else:
         print('The Washington dataset does not contain gender data.')
 
